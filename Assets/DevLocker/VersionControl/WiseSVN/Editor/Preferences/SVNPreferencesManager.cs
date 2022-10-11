@@ -8,9 +8,9 @@ using UnityEngine;
 
 namespace DevLocker.VersionControl.WiseSVN.Preferences
 {
-	internal class SVNPreferencesManager : Utils.EditorPersistentSingleton<SVNPreferencesManager>
+	public class SVNPreferencesManager : Utils.EditorPersistentSingleton<SVNPreferencesManager>
 	{
-		internal enum BoolPreference
+		public enum BoolPreference
 		{
 			SameAsProjectPreference = 0,
 			Enabled = 4,
@@ -29,7 +29,7 @@ namespace DevLocker.VersionControl.WiseSVN.Preferences
 		[SerializeField] private bool m_RetryTextures = false;
 
 		[Serializable]
-		internal class PersonalPreferences
+		public class PersonalPreferences
 		{
 			public bool EnableCoreIntegration = true;		// Sync file operations with SVN
 			public bool PopulateStatusesDatabase = true;    // For overlay icons etc.
@@ -64,7 +64,7 @@ namespace DevLocker.VersionControl.WiseSVN.Preferences
 		}
 
 		[Serializable]
-		internal class ProjectPreferences
+		public class ProjectPreferences
 		{
 			public bool DownloadRepositoryChanges = true;
 

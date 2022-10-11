@@ -1685,7 +1685,7 @@ namespace DevLocker.VersionControl.WiseSVN
 			}
 		}
 
-		private static AssetDeleteResult OnWillDeleteAsset(string path, RemoveAssetOptions option)
+		public static AssetDeleteResult OnWillDeleteAsset(string path, RemoveAssetOptions option)
 		{
 			if (!Enabled || TemporaryDisabled || SVNPreferencesManager.ShouldExclude(m_PersonalPrefs.Exclude.Concat(m_ProjectPrefs.Exclude), path))
 				return AssetDeleteResult.DidNotDelete;
