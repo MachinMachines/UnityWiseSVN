@@ -1,21 +1,24 @@
 {
-    "name": "machinmachines.versioncontrol.wisesvn",
-    "displayName": "WiseSVN",
-    "version": "1.5.0",
-    "unity": "2018.4",
-    "description": "SVN wrapper API based on WiseSVN.",
-	"category": "VersionControl",
-    "keywords": [
-        "svn",
-        "tortoisesvn",
-        "snailsvn",
-        "versioncontrol",
-        "sourcecontrol",
-        "files"
-    ],
-    "dependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MachinMachines/UnityWiseSVN.git"
-    }
+  "name": "machinmachines.versioncontrol.wisesvn",
+  "displayName": "WiseSVN",
+  "version": "1.5.0",
+  "unity": "2018.4",
+  "description": "SVN wrapper API based on WiseSVN.",
+  "category": "VersionControl",
+  "keywords": [
+    "svn",
+    "tortoisesvn",
+    "snailsvn",
+    "versioncontrol",
+    "sourcecontrol",
+    "files"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MachinMachines/UnityWiseSVN.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@MachinMachines"
+  }
 }
