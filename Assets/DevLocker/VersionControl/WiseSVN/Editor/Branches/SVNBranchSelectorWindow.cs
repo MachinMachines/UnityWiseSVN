@@ -1,10 +1,10 @@
-using DevLocker.VersionControl.WiseSVN.ContextMenus;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Branches
+namespace MachinMachines.VersionControl.WiseSVN.Branches
 {
 	/// <summary>
 	/// Popup that shows found branches. User can open "Repo Browser" or "Show log" for the selected file.

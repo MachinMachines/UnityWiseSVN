@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Threading;
 
-namespace DevLocker.VersionControl.WiseSVN.Shell
+namespace MachinMachines.VersionControl.WiseSVN.Shell
 {
 	public delegate void ShellRequestAbortEventHandler(bool kill);
 

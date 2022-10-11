@@ -1,4 +1,4 @@
-using DevLocker.VersionControl.WiseSVN.ContextMenus;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Preferences
+namespace MachinMachines.VersionControl.WiseSVN.Preferences
 {
 	public class SVNPreferencesManager : Utils.EditorPersistentSingleton<SVNPreferencesManager>
 	{

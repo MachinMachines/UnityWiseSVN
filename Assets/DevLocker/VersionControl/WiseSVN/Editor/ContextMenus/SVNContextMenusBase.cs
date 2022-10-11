@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.ContextMenus.Implementation
+namespace MachinMachines.VersionControl.WiseSVN.ContextMenus.Implementation
 {
 	internal abstract class SVNContextMenusBase
 	{

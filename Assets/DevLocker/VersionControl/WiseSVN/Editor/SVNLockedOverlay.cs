@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using DevLocker.VersionControl.WiseSVN.Preferences;
-using DevLocker.VersionControl.WiseSVN.Utils;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Utils;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace DevLocker.VersionControl.WiseSVN
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	/// <summary>
 	/// Renders scene or prefab overlay indicating that the asset is locked or out of date.

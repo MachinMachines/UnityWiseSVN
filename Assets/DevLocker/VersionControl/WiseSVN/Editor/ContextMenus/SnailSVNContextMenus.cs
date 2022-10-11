@@ -1,10 +1,10 @@
-using DevLocker.VersionControl.WiseSVN.Shell;
+using MachinMachines.VersionControl.WiseSVN.Shell;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.ContextMenus.Implementation
+namespace MachinMachines.VersionControl.WiseSVN.ContextMenus.Implementation
 {
 	// SnailSVN: https://langui.net/snailsvn
 	// Use the "/Applications/SnailSVN.app/Contents/Resources/snailsvn.sh" executable as much as possible.

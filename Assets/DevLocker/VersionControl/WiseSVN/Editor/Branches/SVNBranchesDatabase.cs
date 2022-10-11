@@ -1,10 +1,10 @@
-using DevLocker.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Branches
+namespace MachinMachines.VersionControl.WiseSVN.Branches
 {
 	/// <summary>
 	/// Scans branches for Unity projects in the SVN repository and keeps them in a simple database.

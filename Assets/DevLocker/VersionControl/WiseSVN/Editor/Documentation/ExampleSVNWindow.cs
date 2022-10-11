@@ -1,9 +1,9 @@
-using DevLocker.VersionControl.WiseSVN.ContextMenus;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Documentation
+namespace MachinMachines.VersionControl.WiseSVN.Documentation
 {
 	/// <summary>
 	/// This an example window showing how you can integrate your tools with the WiseSVN plugin.

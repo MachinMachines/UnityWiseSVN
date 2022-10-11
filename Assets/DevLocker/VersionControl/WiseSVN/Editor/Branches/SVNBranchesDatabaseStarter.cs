@@ -1,7 +1,7 @@
-using DevLocker.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
 using UnityEditor;
 
-namespace DevLocker.VersionControl.WiseSVN.Branches
+namespace MachinMachines.VersionControl.WiseSVN.Branches
 {
 	/// <summary>
 	/// Starts the database if enabled.

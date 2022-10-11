@@ -1,12 +1,12 @@
-using DevLocker.VersionControl.WiseSVN.ContextMenus;
-using DevLocker.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.LockPrompting
+namespace MachinMachines.VersionControl.WiseSVN.LockPrompting
 {
 	/// <summary>
 	/// Popup that prompts user should it force-lock changed assets.

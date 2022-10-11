@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Utils
+namespace MachinMachines.VersionControl.WiseSVN.Utils
 {
 	public interface IEditorPersistentSingleton
 	{

@@ -1,10 +1,10 @@
-using DevLocker.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
 using System;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	/// <summary>
 	/// Renders SVN overlay icons in the project windows.

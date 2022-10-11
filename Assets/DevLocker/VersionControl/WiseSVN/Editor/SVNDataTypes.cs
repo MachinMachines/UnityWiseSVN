@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	public enum VCFileStatus
 	{

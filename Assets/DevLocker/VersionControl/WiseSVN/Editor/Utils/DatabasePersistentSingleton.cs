@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Utils
+namespace MachinMachines.VersionControl.WiseSVN.Utils
 {
 	/// <summary>
 	/// Base class for database objects that need to survive assembly reload.

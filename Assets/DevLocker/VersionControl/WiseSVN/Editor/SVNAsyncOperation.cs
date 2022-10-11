@@ -1,9 +1,9 @@
-using DevLocker.VersionControl.WiseSVN.Shell;
+using MachinMachines.VersionControl.WiseSVN.Shell;
 using System.Collections.Concurrent;
 using System.Threading;
 using UnityEditor;
 
-namespace DevLocker.VersionControl.WiseSVN
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	/// <summary>
 	/// Simple promise class, useful in editor environment where there are no coroutines.

@@ -1,11 +1,11 @@
-using DevLocker.VersionControl.WiseSVN.ContextMenus.Implementation;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus.Implementation;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEditor;
 
-namespace DevLocker.VersionControl.WiseSVN.ContextMenus
+namespace MachinMachines.VersionControl.WiseSVN.ContextMenus
 {
 	public enum ContextMenusClient
 	{

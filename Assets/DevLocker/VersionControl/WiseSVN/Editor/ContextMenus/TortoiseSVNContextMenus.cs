@@ -1,9 +1,9 @@
-using DevLocker.VersionControl.WiseSVN.Shell;
+using MachinMachines.VersionControl.WiseSVN.Shell;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.ContextMenus.Implementation
+namespace MachinMachines.VersionControl.WiseSVN.ContextMenus.Implementation
 {
 #if UNITY_EDITOR_WIN
 	// TortoiseSVN Commands: https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-automation.html

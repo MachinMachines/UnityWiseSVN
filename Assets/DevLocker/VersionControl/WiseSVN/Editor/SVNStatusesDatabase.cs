@@ -1,4 +1,4 @@
-using DevLocker.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	// HACK: This should be internal, but due to inheritance issues it can't be.
 	[Serializable]

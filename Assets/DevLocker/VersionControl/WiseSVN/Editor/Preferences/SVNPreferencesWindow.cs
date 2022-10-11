@@ -1,13 +1,13 @@
-using DevLocker.VersionControl.WiseSVN.LockPrompting;
-using DevLocker.VersionControl.WiseSVN.Branches;
-using DevLocker.VersionControl.WiseSVN.ContextMenus;
+using MachinMachines.VersionControl.WiseSVN.LockPrompting;
+using MachinMachines.VersionControl.WiseSVN.Branches;
+using MachinMachines.VersionControl.WiseSVN.ContextMenus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN.Preferences
+namespace MachinMachines.VersionControl.WiseSVN.Preferences
 {
 	internal class SVNPreferencesWindow : EditorWindow
 	{

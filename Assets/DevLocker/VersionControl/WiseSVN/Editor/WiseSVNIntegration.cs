@@ -2,8 +2,8 @@
 #define CAN_DISABLE_REFRESH
 #endif
 
-using DevLocker.VersionControl.WiseSVN.Preferences;
-using DevLocker.VersionControl.WiseSVN.Shell;
+using MachinMachines.VersionControl.WiseSVN.Preferences;
+using MachinMachines.VersionControl.WiseSVN.Shell;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -13,7 +13,11 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevLocker.VersionControl.WiseSVN
+// Note: although the outer namespace got renamed to "MachinMachines" to prevent collisions,
+// the original source for WiseSVN is here: https://github.com/NibbleByte/UnityWiseSVN
+// Thanks to the original author Filip Slavov
+
+namespace MachinMachines.VersionControl.WiseSVN
 {
 	/// <summary>
 	/// The core implementation of the SVN integration.
