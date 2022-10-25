@@ -407,10 +407,11 @@ namespace MachinMachines.VersionControl.WiseSVN.Preferences
 
 			// svn: warning: W155007: '...' is not a working copy!
 			// This can be returned when project is not a valid svn checkout. (Probably)
-			if (svnError.Contains("W155007")) {
-				Debug.LogError($"This project is NOT under version control (not a proper SVN checkout). Disabling WiseSVN integration.\n\n{svnError}");
-				return;
-			}
+			// TODO @gama disabled this check as we are not using version control for the host project
+			//if (svnError.Contains("W155007")) {
+			//	Debug.LogError($"This project is NOT under version control (not a proper SVN checkout). Disabling WiseSVN integration.\n\n{svnError}");
+			//	return;
+			//}
 
 			// Any other error.
 			if (!string.IsNullOrEmpty(svnError)) {
