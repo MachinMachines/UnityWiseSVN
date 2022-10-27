@@ -1,7 +1,7 @@
 {
   "name": "machinmachines.versioncontrol.wisesvn",
   "displayName": "WiseSVN",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "unity": "2018.4",
   "description": "SVN wrapper API based on WiseSVN.",
   "category": "VersionControl",
